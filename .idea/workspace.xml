@@ -4,7 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="77699f41-3fc5-46da-8802-498c1738f1c4" name="Default Changelist" comment="1" />
+    <list default="true" id="77699f41-3fc5-46da-8802-498c1738f1c4" name="Default Changelist" comment="1">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/resources/init.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/resources/init.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/resources/init.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/resources/init.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/EmailLoginPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pages/EmailLoginPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/MainPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pages/MainPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/CorrectUrl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/CorrectUrl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/DownloadData.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/DownloadData.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/Login.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/Login.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/LoginFailed_EmptyValues.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/LoginFailed_EmptyValues.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/LoginFailed_Password.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/LoginFailed_Password.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/ToMail.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/ToMail.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -28,7 +43,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/resources" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -38,7 +53,7 @@
       <recent name="resources" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.DownloadData.testEasy">
+  <component name="RunManager" selected="TestNG.Login">
     <configuration name="CorrectUrl.testEasy" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="WebDriverTest" />
       <extension name="coverage">
@@ -75,6 +90,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Login" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="WebDriverTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.Login" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="LoginFailed_Password.testEasy" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="WebDriverTest" />
       <extension name="coverage">
@@ -85,24 +117,6 @@
       </extension>
       <option name="PACKAGE_NAME" value="tests" />
       <option name="MAIN_CLASS_NAME" value="tests.LoginFailed_Password" />
-      <option name="METHOD_NAME" value="testEasy" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Login.testEasy" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="WebDriverTest" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.Login" />
       <option name="METHOD_NAME" value="testEasy" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
@@ -131,11 +145,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.Login" />
         <item itemvalue="TestNG.DownloadData.testEasy" />
         <item itemvalue="TestNG.CorrectUrl.testEasy" />
         <item itemvalue="TestNG.ToMail.testEasy" />
         <item itemvalue="TestNG.LoginFailed_Password.testEasy" />
-        <item itemvalue="TestNG.Login.testEasy" />
       </list>
     </recent_temporary>
   </component>
@@ -149,19 +163,5 @@
       <updated>1619821391872</updated>
     </task>
     <servers />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/test/java/tests/Login.java</url>
-          <line>23</line>
-          <properties class="tests.Login" method="testEasy">
-            <option name="EMULATED" value="true" />
-          </properties>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
